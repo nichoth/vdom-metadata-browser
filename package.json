@@ -1,8 +1,8 @@
 {
   "name": "vdom-metadata-browser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "UI for looking at lists of fields and values",
-  "homepage": "http://hallowed-letters.surge.sh/vdom-metadata-browser",
+  "homepage": "https://github.com/nichoth/vdom-metadata-browser#readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,7 +29,6 @@
   "bugs": {
     "url": "https://github.com/nichoth/vdom-metadata-browser/issues"
   },
-  "homepage": "https://github.com/nichoth/vdom-metadata-browser#readme",
   "devDependencies": {
     "ecstatic": "^1.4.0",
     "vdom-loop": "0.0.0",
