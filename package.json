@@ -2,6 +2,7 @@
   "name": "vdom-metadata-browser",
   "version": "0.0.0",
   "description": "UI for looking at lists of fields and values",
+  "homepage": "http://hallowed-letters.surge.sh/vdom-metadata-browser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
