@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run watch & ecstatic example",
-    "watch": "watchify example/example.js -o example/bundle.js -dv"
+    "watch": "watchify example/example.js -o example/bundle.js -dv",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
