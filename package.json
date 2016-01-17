@@ -1,7 +1,7 @@
 {
   "name": "vdom-metadata-browser",
   "version": "0.0.0",
-  "description": "List of fields and values made with virtual-dom",
+  "description": "UI for looking at lists of fields and values",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
