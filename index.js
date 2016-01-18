@@ -17,6 +17,8 @@ function FieldListView(opts) {
 
   var s = state({
     fetchNodesFn: observ(opts.fetchNodesFn),
+    onDelete: observ(opts.onDelete),
+    onSave: observ(opts.onSave),
     fields: oArray( opts.fields.map(function(f) {
       return FieldItem({
         field: f,
@@ -34,7 +36,9 @@ FieldListView.set = function(state, fields) {
   state.fields.set(fields.map(function(f) {
     return FieldItem({
         field: f,
-        fetchNodesFn: state().fetchNodesFn
+        fetchNodesFn: state().fetchNodesFn,
+        onDelete: state().onDelete,
+        onSave: state().onSave
       });
   }));
 };
