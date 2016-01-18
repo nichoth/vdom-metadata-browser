@@ -1,6 +1,6 @@
 {
   "name": "vdom-metadata-browser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "UI for looking at lists of fields and values",
   "homepage": "https://github.com/nichoth/vdom-metadata-browser#readme",
   "main": "index.js",
