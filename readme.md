@@ -17,7 +17,6 @@ var DataBrowser = require('vdom-metadata-browser');
 var loop = require('vdom-loop');
 var h = loop.h;
 
-var log = console.log.bind(console);
 var data = [
   {
     name: 'texture',
@@ -38,8 +37,13 @@ var data = [
 ];
 
 var state = DataBrowser({
-  fetchNodesFn: log,
-  fields: data
+  fields: data,
+  fetchNodesFn: console.log.bind(console, 'fetch'),
+  onDelete: console.log.bind(console, 'delete'),
+  onSave: function(value, done) {
+    console.log(value);
+    done();
+  }
 });
 
 var el = loop(state, DataBrowser.render.bind(null, h));
